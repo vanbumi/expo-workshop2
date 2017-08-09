@@ -7,11 +7,11 @@
 			return (
 			<View style={styles.container}>
 				<Image 
-				style={{ flex: 1 }} 
-				source={ require('./assets/cat.jpg') } 
+					style={{ flex: 1 }} 
+					source={ require('./assets/cat.jpg') } 
 				/>
 				<Text>
-				Hello Cat! and Man!
+					Hello Cat! and Man!
 				</Text>
 				<Image style={{ flex: 1 }} source={ require('./assets/man.jpg') } />
 			</View>
