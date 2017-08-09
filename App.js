@@ -6,13 +6,16 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Image 
-          style={{ flex: 1 }} 
+          style={{ flex: 1, width: 400 }} 
           source={ require('./assets/cat.jpg') } 
         />
         <Text>
           Hello Cat! and Man!
         </Text>
-        <Image style={{ flex: 1 }} source={ require('./assets/man.jpg') } />
+        <Image 
+          style={{ flex: 1, width: 200 }} 
+          source={{ uri: 'https://www.watertankfactory.com.au/wp-content/uploads/2015/08/Smiling-young-casual-man-2.png' }} 
+        />
       </View>
     );
   }
